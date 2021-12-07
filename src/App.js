@@ -13,10 +13,6 @@ function App() {
   const [inputValue, setInputValue] = useState("");
   const inputRefs = useRef([]);
 
-  useEffect(() => {
-    inputRefs.current = new Array(data.length);
-  }, [data]);
-
   const updateNameHandler = (id, index) => {
     if (inputValue) {
       const items = [...data];
