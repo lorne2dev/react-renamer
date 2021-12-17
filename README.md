@@ -1,4 +1,4 @@
-An example from an online tutorial showing React.
+An example from an online tutorial showing React useState, useEffect and useRef to update items.
 
 
 
